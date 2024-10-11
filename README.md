@@ -1,13 +1,39 @@
-# Desenhando Cubos Rotacionando com ASCII
 
-Este é um programa em C que desenha cubos rotacionando em uma tela usando caracteres ASCII. O código utiliza técnicas de projeção 3D e renderização em modo texto para criar uma animação visual de cubos giratórios.
+## Animação de Cubos 3D em Terminal
+Este programa em C exibe uma animação de cubos em uma tela de terminal. Ele calcula a projeção 3D dos cubos e utiliza uma técnica de buffer para desenhá-los com diferentes caracteres ASCII, resultando em uma visualização em 2D da rotação dos cubos.
 
 ## Descrição
-
-O programa exibe uma animação de cubos em uma tela de terminal. Ele calcula a projeção 3D dos cubos e usa uma técnica de buffer para desenhá-los com diferentes caracteres ASCII, resultando em uma visualização em 2D da rotação dos cubos.
+O programa projeta cubos 3D em um espaço 2D utilizando cálculos matemáticos para determinar a posição e rotação dos cubos. A técnica de buffer utilizada assegura que a renderização seja feita de maneira eficiente, permitindo uma animação suave. Os cubos são representados por caracteres ASCII variados, criando uma visualização interessante na interface do terminal.
 
 ## Funcionalidades
+Projeção 3D de cubos em um espaço 2D
 
-- Desenha cubos rotacionando em 3D.
-- Permite ajustar a velocidade da rotação e a posição dos cubos.
-- Utiliza um buffer de profundidade (z-buffer) para renderizar corretamente os cubos em relação à distância da câmera.
+Animação de rotação dos cubos
+
+Utilização de caracteres ASCII para a representação gráfica
+
+Técnica de buffer para renderização eficiente
+
+## Requisitos
+Compilador C (por exemplo, GCC)
+
+Terminal compatível com ANSI
+
+## Como Compilar e Executar
+1. Clone o repositório ou baixe os arquivos do programa.
+
+2. Abra o terminal e navegue até o diretório onde os arquivos estão localizados.
+
+3. Compile o programa utilizando o compilador C:
+
+```bash
+
+gcc -o animacao_cubos animacao_cubos.c -lm
+```
+
+4. Execute o programa:
+```bash
+./animacao_cubos
+```     
+## Uso
+Ao executar o programa, a animação dos cubos será exibida no terminal. Use as teclas de controle (se implementadas) para interagir com a animação e explorar diferentes perspectivas dos cubos.
